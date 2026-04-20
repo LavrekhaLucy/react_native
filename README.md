@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# Sticker Smash — React Native (Expo) Pet Project
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a cross-platform mobile application developed as part of my learning path in React Native.
 
-## Get started
+## Features
+* **Image Selection:** Users can pick a photo from their device's media library using `expo-image-picker`.
+* **Sticker Interaction:** Built a custom emoji picker modal and integrated stickers.
+* **Gestures & Animations:** Implemented drag (Pan) and scale (Pinch) gestures using `react-native-gesture-handler` and `react-native-reanimated`.
+* **Platform Specifics:** Handled differences between Web and Mobile (Android/iOS) for saving images.
+* **Screenshot & Save:** Capturing the final composition and saving it to the device's gallery or downloading it via browser.
 
-1. Install dependencies
+## Tech Stack
+* **Framework:** React Native (Expo)
+* **Navigation:** Expo Router (File-based routing)
+* **Styling:** StyleSheet
+* **Animations:** Reanimated
+* **Language:** TypeScript
 
-   ```bash
-   npm install
-   ```
+## Screenshots (Web Browser)
+Here is the step-by-step process of creating and saving a sticker smash composition on a web browser.
 
-2. Start the app
+<div style="text-align: center;">
+  <table style="border-collapse: collapse; border: none;">
+    <tr>
+      <td style="border: none;"><img src="./screenshots/160043.png" width="200" alt="Main Screen"></td>
+      <td style="border: none;"><img src="./screenshots/160112.png" width="200" alt="Image Picker"></td>
+      <td style="border: none;"><img src="./screenshots/160133.png" width="200" alt="Sticker Added"></td>
+      <td style="border: none;"><img src="./screenshots/160149.png" width="200" alt="Final Result"></td>
+    </tr>
+  </table>
+</div>
 
-   ```bash
-   npx expo start
-   ```
+## Screenshots (Mobile Demo)
 
-In the output, you'll find options to open the app in a
+Here is the step-by-step process of creating and saving a sticker smash composition on an Android device.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<div style="text-align: center;">
+  <table style="border-collapse: collapse; border: none;">
+    <tr>
+      <td style="border: none;"><img src="screenshots/photo_1.jpg" width="200" alt="Main Screen"></td>
+      <td style="border: none;"><img src="./screenshots/photo_2.jpg" width="200" alt="Emoji Picker"></td>
+      <td style="border: none;"><img src="./screenshots/photo_3.jpg" width="200" alt="Sticker Added"></td>
+      <td style="border: none;"><img src="screenshots/photo_4.jpg" width="200" alt="Final Result"></td>
+    </tr>
+  </table>
+</div>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## How to Run
+1. Clone the repository
+2. Run `npm install`
+3. Start the project with `npx expo start`
