@@ -1,7 +1,7 @@
 import * as ImagePicker from 'expo-image-picker';
 import * as MediaLibrary from 'expo-media-library';
 import { useEffect, useRef, useState } from 'react';
-import { ImageSourcePropType, View, StyleSheet, Platform } from 'react-native';
+import { ImageSourcePropType, View, StyleSheet, Platform, Text } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import { captureRef } from 'react-native-view-shot';
 import domtoimage from 'dom-to-image';
@@ -97,6 +97,7 @@ export default function Index() {
         <GestureHandlerRootView style={styles.container}>
             <View style={styles.imageContainer}>
                 <View ref={imageRef} collapsable={false}>
+                    <Text style={styles.text}>Hello, this is my app!</Text>
                     <ImageViewer imgSource={PlaceholderImage} selectedImage={selectedImage} />
                     {pickedEmoji && <EmojiSticker imageSize={40} stickerSource={pickedEmoji} />}
                 </View>
@@ -142,5 +143,8 @@ const styles = StyleSheet.create({
     optionsRow: {
         alignItems: 'center',
         flexDirection: 'row',
+    },
+    text: {
+        color: '#fff',
     },
 });

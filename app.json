@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "react-native-test",
-    "slug": "react-native-test",
+    "slug": "sticker-smash-lavrekha",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "reactnativetest",
+    "scheme": "stickersmashlavrekha",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -14,12 +14,11 @@
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/android-icon-foreground.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+        "foregroundImage": "./assets/images/adaptive-icon.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.lavrekhalucy.stickersmashlavrekha"
     },
     "web": {
       "output": "static",
@@ -43,6 +42,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "b4d2a653-9b39-485d-99c3-a9deccb997b0"
+      }
+    },
+    "owner": "lavrekhalucy"
   }
 }
