@@ -49,6 +49,12 @@
         "projectId": "b4d2a653-9b39-485d-99c3-a9deccb997b0"
       }
     },
-    "owner": "lavrekhalucy"
+    "owner": "lavrekhalucy",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b4d2a653-9b39-485d-99c3-a9deccb997b0"
+    }
   }
 }
