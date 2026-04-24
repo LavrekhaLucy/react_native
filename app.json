@@ -4,22 +4,24 @@
     "slug": "sticker-smash-lavrekha",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/react-native-icon.png",
     "scheme": "stickersmashlavrekha",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+        "bundleIdentifier": "com.lavrekhalucy.stickersmashlavrekha"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/adaptive-icon.png"
+        "foregroundImage": "./assets/images/react-native-icon.png"
       },
       "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.lavrekhalucy.stickersmashlavrekha"
-    },
+
+},
     "web": {
       "output": "static",
       "favicon": "./assets/images/favicon.png"
